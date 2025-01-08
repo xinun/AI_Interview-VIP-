@@ -1,0 +1,13 @@
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/launchscreen2.png       # 스플래시 이미지 경로
+  android: true                     # Android에서 스플래시 활성화
+  ios: true                         # iOS에서 스플래시 활성화
+              
+  ios_content_mode: aspectFill # iOS에서 이미지 크기 조정 옵션
+  fullscreen: true                  # 전체 화면 모드 활성화
+
+  android_12:
+    image: assets/launchscreen_android.png
+    color: "#0A0A0A"
+    android_gravity: "fill"  # Android에서 이미지 크기 조정 옵션
