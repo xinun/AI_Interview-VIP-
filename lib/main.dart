@@ -7,8 +7,6 @@ import 'Login&Register/login.dart';
 import 'Login&Register/user_provider.dart';
 import 'main_navigation.dart';
 import 'Login&Register/firebase_options.dart';
-import 'package:vip/Login&Register/login.dart';
-import 'package:firebase_app_check/firebase_app_check.dart';
 Future<void> main() async {
   // 스플래시 화면 유지 설정
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
